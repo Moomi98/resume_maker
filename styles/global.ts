@@ -11,37 +11,37 @@ export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "NotoSansKR-Black";
     font-style: normal;
-    src: url(${NotoSansKR_Black});
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Black.otf");
   }
   @font-face {
     font-family: "NotoSansKR-Bold";
     font-style: normal;
-    src: url(${NotoSansKR_Bold});
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Bold.otf");
   }
   @font-face {
     font-family: "NotoSansKR-Light";
     font-style: normal;
-    src: url(${NotoSansKR_Light});
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Light.otf");
   }
   @font-face {
     font-family: "NotoSansKR-Medium";
     font-style: normal;
-    src: url(${NotoSansKR_Medium});
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Medium.otf");
   }
   @font-face {
     font-family: "NotoSansKR-Regular";
     font-style: normal;
-    src: url(${NotoSansKR_Regular});
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf");
   }
   @font-face {
     font-family: "NotoSansKR-Thin";
     font-style: normal;
-    src: url(${NotoSansKR_Thin});
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Thin.otf");
   }
 *{
     box-sizing: border-box;
     font-family: "NotoSansKR-Regular";
-}ß
+}
   html, body {
     height: 100%;
     padding: 0;
@@ -51,7 +51,6 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
-  * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';}
   a { cursor: pointer; text-decoration: none; }
   p {margin : 0}
 `;
