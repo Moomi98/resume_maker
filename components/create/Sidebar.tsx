@@ -9,7 +9,6 @@ const Container = styled.aside`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px;
 `;
 
 const MenuContainer = styled.ul`
@@ -20,6 +19,7 @@ const MenuContainer = styled.ul`
   border-radius: 5px;
   border: 2px solid ${colors.border};
   padding: 30px 12px;
+  margin: 0;
 `;
 
 const MenuTypeWrapper = styled.li`
