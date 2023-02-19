@@ -1,20 +1,23 @@
 import styled from "styled-components";
-import NormalInput from "../commons/NormalInput";
 
 const Container = styled.div`
   width: 100%;
   height: 100%;
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 50px;
 `;
 
-const ResumeWrite = () => {
+const Paper = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: white;
+`;
+
+const ResumePreview = () => {
   return (
     <Container>
-      <NormalInput type="이름" />
+      <Paper></Paper>
     </Container>
   );
 };
 
-export default ResumeWrite;
+export default ResumePreview;

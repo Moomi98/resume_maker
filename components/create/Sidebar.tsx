@@ -20,6 +20,7 @@ const MenuContainer = styled.ul`
   border: 2px solid ${colors.border};
   padding: 30px 12px;
   margin: 0;
+  background-color: white;
 `;
 
 const MenuTypeWrapper = styled.li`
