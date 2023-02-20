@@ -1,3 +1,4 @@
+import useProfileInfo from "@/hooks/useProfileInfo";
 import styled from "styled-components";
 import NormalInput from "../commons/NormalInput";
 
@@ -10,9 +11,11 @@ const Container = styled.div`
 `;
 
 const ResumeWrite = () => {
+  const { updateImage, updateName, updateShortIntroduce } = useProfileInfo();
+
   return (
     <Container>
-      <NormalInput type="이름" />
+      <NormalInput type="이름" onChange={updateName} />
     </Container>
   );
 };

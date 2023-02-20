@@ -67,8 +67,8 @@ const Sidebar = () => {
   return (
     <Container>
       <MenuContainer>
-        {SIDEBAR.menus.map((menu) => (
-          <MenuTypeWrapper>
+        {SIDEBAR.menus.map((menu, index) => (
+          <MenuTypeWrapper key={index}>
             <WriteIcon size={20} />
             <MenuType>{menu}</MenuType>
           </MenuTypeWrapper>

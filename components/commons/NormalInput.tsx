@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 interface NormalInputProps {
   type: string;
+  onChange?: Function;
 }
 
 const Container = styled.div`
@@ -29,7 +30,11 @@ const NormalInput = (props: NormalInputProps) => {
   return (
     <Container>
       <InputType>{props.type}</InputType>
-      <Input />
+      <Input
+        onChange={(event) =>
+          props.onChange && props.onChange(event.target.value)
+        }
+      />
     </Container>
   );
 };
